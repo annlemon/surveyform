@@ -5,9 +5,39 @@
 </head>
   <body>
       <h1 id="title">Survey Form</h1>
-      <form id="survey-form"">
-        <input id="name" required>
-        <input id="email" required>
+      <form id="survey-form">
+        <label for="name" id="name-label">
+          Name
+          <input 
+            id="name" 
+            name="name" 
+            placeholder="name here" 
+            required
+            type="text" 
+            >
+        </label>
+        <label for="email" id="email-label">
+          Email
+          <input 
+            id="email" 
+            name="email" 
+            placeholder="email here" 
+            required
+            type="email" 
+            >
+        </label>
+        <label for="number" id="number-label">
+          Age
+          <input 
+            id="number" 
+            max="100"
+            min="10" 
+            name="age" 
+            placeholder="age here" 
+            type="number" 
+            >
+        </label>
+        
       </form>
    <!-- the script here is unit tests from free code camp -->
     <script 
