@@ -6,6 +6,46 @@
   <body>
       <h1 id="title">Survey Form</h1>
       <form id="survey-form">
+      <label for="Sure">
+        <input 
+          id="sure"
+          name="recommend"
+          type="checkbox" 
+          value="sure"
+          >
+        Sure
+      </label>
+      <label for="maybe">
+        <input 
+          id="maybe" 
+          type="checkbox" 
+          value="maybe" 
+          name="recommend"
+          >
+        Maybe
+      </label>
+      <label for="no">
+        <input 
+          id="no" 
+          type="checkbox" 
+          value="no" 
+          name="recommend"
+          >
+        Oh Hell No!
+      </label>
+        <label> 
+        <input type="radio" name="options" value="student">Student 
+        </label>
+        <label>
+        <input type="radio" name="options" value="job">Full Time Job
+        </label>
+        <label>
+        <input type="radio" name="options"value="loser" >Loser
+        </label>
+        <select id="dropdown">
+          <option>chocolate</option>
+          <option>vanilla</option>
+        </select>
         <label for="name" id="name-label">
           Name
           <input 
